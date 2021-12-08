@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Cera Pro Medium';
+    src: url('../fonts/CeraPro-Medium.eot');
+    src: url('../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraPro-Medium.woff') format('woff'),
+    url('../fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    color: violet;
+    font-family: 'Cera Pro Medium';
+}
+/* NAVIGATION */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: aliceblue;
+    overflow: hidden;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: lightskyblue;
+    color: black;
+}
+
+/* Add an logo class to highlight the current page */
+.topnav a.logo {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+.topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
