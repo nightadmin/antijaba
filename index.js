@@ -21,3 +21,4 @@ function _auth(token, name) {
   localStorage.setItem("name", name);
   localStorage.setItem("token", token);
 }
+alert("АЛО БЯЛТЬ")
