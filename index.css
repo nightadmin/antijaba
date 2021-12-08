@@ -8,8 +8,9 @@
     font-style: normal;
 }
 body {
-    color: violet;
+    color: dodgerblue;
     font-family: 'Cera Pro Medium';
+    padding: 1em;
 }
 /* NAVIGATION */
 /* Add a black background color to the top navigation */
