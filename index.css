@@ -70,3 +70,12 @@ body {
         text-align: left;
     }
 }
+a.btn {
+    padding: 2em;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 15px;
+}
+.hidden-input {
+    display: none;
+}
