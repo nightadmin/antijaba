@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Cera Pro Medium';
-    src: url('../fonts/CeraPro-Medium.eot');
-    src: url('../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/CeraPro-Medium.woff') format('woff'),
-    url('../fonts/CeraPro-Medium.ttf') format('truetype');
+    src: url('fonts/CeraPro-Medium.eot');
+    src: url('fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/CeraPro-Medium.woff') format('woff'),
+    url('fonts/CeraPro-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,6 +17,7 @@ body {
 .topnav {
     background-color: aliceblue;
     overflow: hidden;
+    padding: 0;
 }
   
 /* Style the links inside the navigation bar */
